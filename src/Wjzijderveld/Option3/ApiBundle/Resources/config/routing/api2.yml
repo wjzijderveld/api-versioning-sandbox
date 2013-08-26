@@ -1,0 +1,14 @@
+api2_get_jobs:
+    path: "/jobs"
+    defaults:
+        _controller: "WjzijderveldOption3ApiBundle:Api2:getJobs"
+    requirements:
+        _version: "2"
+
+api2_get_job:
+    path: "/jobs/{id}"
+    defaults:
+        _controller: "WjzijderveldOption3ApiBundle:Api:getJob"
+    requirements:
+        id: \d+
+        _version: "2"

@@ -1,0 +1,5 @@
+api1:
+    resource: "routing/api1.yml"
+
+api2:
+    resource: "routing/api2.yml"
