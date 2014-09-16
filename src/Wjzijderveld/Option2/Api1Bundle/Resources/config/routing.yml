@@ -2,8 +2,7 @@ api1_get_jobs:
     path: "/jobs"
     defaults:
         _controller: "WjzijderveldOption2Api1Bundle:Api:getJobs"
-    requirements:
-        _version: "1"
+    condition: "context.getApiVersion() === '1'"
 
 api1_get_job:
     path: "/jobs/{id}"
@@ -11,4 +10,4 @@ api1_get_job:
         _controller: "WjzijderveldOption2Api1Bundle:Api:getJob"
     requirements:
         id: \d+
-        _version: "1"
+    condition: "context.getApiVersion() === '1'"

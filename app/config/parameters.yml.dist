@@ -16,6 +16,4 @@ parameters:
 
     router.class: Wjzijderveld\BaseBundle\Router\ApiRouter
     router.options.matcher_class: Wjzijderveld\BaseBundle\Router\VersionMatcher
-    router.options.matcher.cache_class: null
-    router.options.matcher_base_class: Wjzijderveld\BaseBundle\Router\VersionMatcher
     router.request_context.class: Wjzijderveld\BaseBundle\Router\RequestContext
