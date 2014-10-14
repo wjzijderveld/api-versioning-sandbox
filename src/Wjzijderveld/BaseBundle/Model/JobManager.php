@@ -10,13 +10,13 @@ class JobManager
     public function __construct()
     {
         $this->jobs = array(
-            1 => array(
-                'title'    => 'Lift boy',
-                'salary'   => '10cts an hour',
-            ),
-            2 => array(
+            array(
                 'title'    => 'Parking boy',
                 'salary'   => '15cts an hour',
+            ),
+            array(
+                'title'    => 'Lift boy',
+                'salary'   => '10cts an hour',
             ),
         );
     }

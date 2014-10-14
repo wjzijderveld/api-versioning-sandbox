@@ -13,8 +13,8 @@ class ApiController extends Controller
     {
         $jobs = $this->get('wjzijderveld_option2.job_manager')->getJobs();
 
-        uasort($jobs, function ($a, $b) {
-            return -1 * strcmp($a['title'], $b['title']);
+        usort($jobs, function ($a, $b) {
+            return strcmp($a['title'], $b['title']);
         });
 
         return new Response(json_encode($jobs));
