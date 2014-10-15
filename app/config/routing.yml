@@ -1,0 +1,2 @@
+api:
+    resource: "@WjzijderveldApiBundle/Resources/config/routing.yml"

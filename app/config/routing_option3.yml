@@ -1,6 +1,0 @@
-default:
-    resource: routing.yml
-
-api_option3:
-    resource: "@WjzijderveldOption3ApiBundle/Resources/config/routing.yml"
-

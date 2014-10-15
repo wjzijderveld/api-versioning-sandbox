@@ -40,6 +40,7 @@ class ApiRouter extends Router implements RequestMatcherInterface
     public function matchRequest(Request $request)
     {
         $acceptHeader = AcceptHeader::fromString($request->headers->get('Accept'))->get($this->acceptHeader);
+
         if (null === $acceptHeader) {
             return $this->match($request->getPathInfo());
         }

@@ -1,8 +1,0 @@
-default:
-    resource: routing.yml
-
-api_option2_v1:
-    resource: "@WjzijderveldOption2Api1Bundle/Resources/config/routing.yml"
-
-api_option2_v2:
-    resource: "@WjzijderveldOption2Api2Bundle/Resources/config/routing.yml"

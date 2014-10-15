@@ -5,6 +5,6 @@
     xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="wjzijderveld_option2.job_manager" class="Wjzijderveld\BaseBundle\Model\JobManager" />
+        <service id="wjzijderveld_api.job_manager" class="Wjzijderveld\BaseBundle\Model\JobManager" />
     </services>
 </container>
